@@ -1,10 +1,10 @@
 # Template simple pour portfolio stagiaire
 
-1. Installer l'éditeur de texte [Atom] (https://atom.io/)
-2. Installer l'extension [Emmet] (https://atom.io/packages/emmet)
-3. Créer un compte [github] (https://github.com/)
-4. Installer l'extension [github] (https://atom.io/packages/github) pour Atom
-5. Installer [github desktop] (https://desktop.github.com/)
+1. Installer l'éditeur de texte [Atom](https://atom.io/)
+2. Installer l'extension [Emmet](https://atom.io/packages/emmet)
+3. Créer un compte [github](https://github.com/)
+4. Installer l'extension [github](https://atom.io/packages/github) pour Atom
+5. Installer [github desktop](https://desktop.github.com/)
 6. Créer une branche à partir du projet initial (Fork your own copy)
 7. Cloner en utilisant Open in Desktop puis publier branche depuis github desktop
 8. Depuis github desktop : Repository > open in Atom
