@@ -4,9 +4,9 @@
 
 ## Les outils
 
-1. Créer un compte [github](https://github.com
+1. Créer un compte [github](https://github.com)
 
-2. Installer [github desktop](https://desktop.github.com/)/)
+2. Installer [github desktop](https://desktop.github.com/)
 
 3. Installer l'éditeur de texte [Atom](https://atom.io/)
 
