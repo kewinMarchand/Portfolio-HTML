@@ -1,155 +1,156 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="description">
-  <meta name="author" content="Stagiaire">
-  <meta name="keywords" content="création sites web wordpress html5 css3 javascript jquery php design interface UI UX">
-  <meta name="theme-color" content="#BADA55">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><!-- encodage des caractères -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- contrôle l'apparence de l'affichage initial de la page -->
+  <meta name="description" content="description"><!-- description du site -->
+  <meta name="author" content="Stagiaire"><!-- auteur du site -->
+  <meta name="keywords" content="création sites web wordpress html5 css3 javascript jquery php design interface UI UX"><!-- mots clefs -->
+  <meta name="theme-color" content="#BADA55"><!-- couleur toolbar androïd -->
+  <!-- open graph data: infos pour réseaux sociaux -->
   <meta property="og:title" content="Portfolio Stagiaire">
   <meta property="og:type" content="website">
   <meta property="og:description" content="description">
   <meta property="og:image" content="img/image.jpg">
   <title>Portfolio Stagiaire</title>
-  <link rel="icon" href="img/favicon.png" sizes="192x192" type="image/png">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap-reboot.min.css" type="text/css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="print.css" media="print">
+  <link rel="icon" href="img/favicon.png" sizes="192x192" type="image/png"><!-- favicon -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"><!-- font-awesome -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"><!-- fonts google -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap-reboot.min.css" type="text/css"><!-- reboot css -->
+  <link rel="stylesheet" href="style.css"><!-- mise en page -->
+  <link rel="stylesheet" href="print.css" media="print"><!-- mise en page pour impression -->
 </head>
 <body id="page_top">
   <header id="header" class="hero-container">
-    <h1 class="hero-title">Stagiaire</h1>
-    <!-- /.hero-title -->
-    <h2 class="hero-subtitle">Designer web</h2>
-    <!-- /.hero-subtitle -->
-    <p class="hero-text">design graphique</p>
-    <!-- /.hero-text -->
-    <p class="hero-text">développement</p>
-    <!-- /.hero-text -->
-    <img src="hero.jpg" alt="hero_image" width="1500" height="1000" id="hero_image" class="hero-image">
-    <a href="#apropos_section" id="hero_to_apropos" class="cta hero-cta">En savoir plus</a>
+    <h1 id="header_title" class="hero-title">Stagiaire</h1>
+    <!-- /#header_title.hero-title -->
+    <h2 id="header_subtitle" class="hero-subtitle">Designer web</h2>
+    <!-- /#header_subtitle.hero-subtitle -->
+    <h3 id="header_item_1" class="hero-item">design graphique</h3>
+    <!-- /#header_item_1.hero-item -->
+    <h3 id="header_item_2" class="hero-item">développement</h3>
+    <!-- /#header_item_2.hero-item -->
+    <img id="header_image" class="hero-image" src="http://via.placeholder.com/1500x1000" alt="hero_image" width="1500" height="1000">
+    <a id="cta_hero_to_apropos" class="cta cta-hero" href="#apropos_section">En savoir plus</a>
   </header>
   <!-- /#header.hero-container -->
   <nav id="nav" class="navbar-container">
-    <a href="" class="navbar-logo"><img src="logo.svg" alt="logo"></a>
-    <a href="#page_top" class="navbar-brand">Stagiaire</a>
-    <ul id="ul" class="menu-container">
-      <li id="menu_item_1" class="menu-item"><a href="#Menu1" class="menu-link">Menu1</a></li>
-      <!-- /#menu_item_1.menu-item -->
-      <li id="menu_item_2" class="menu-item"><a href="#Menu2" class="menu-link">Menu2</a></li>
-      <!-- /#menu_item_2.menu-item -->
-      <li id="menu_item_3" class="menu-item"><a href="#Menu3" class="menu-link">Menu3</a></li>
-      <!-- /#menu_item_3.menu-item -->
-      <li id="menu_item_4" class="menu-item"><a href="#Menu4" class="menu-link">Menu4</a></li>
-      <!-- /#menu_item_4.menu-item -->
+    <a id="nav_logo" class="navbar-logo" href="http://kewin-marchand-webdesigner.fr/" ><img src="logo.svg" alt="logo"></a>
+    <a id="nav_brand" class="navbar-brand" href="#page_top">Stagiaire</a>
+    <ul id="nav_menu" class="navbar-menu">
+      <li id="nav_menu_item_1" class="navbar-menu-item"><a href="#Menu1" class="navbar-menu-tab">Menu1</a></li>
+      <!-- /#nav_menu_item_1.navbar-menu-item -->
+      <li id="nav_menu_item_2" class="navbar-menu-item"><a href="#Menu2" class="navbar-menu-tab">Menu2</a></li>
+      <!-- /#nav_menu_item_2.navbar-menu-item -->
+      <li id="nav_menu_item_3" class="navbar-menu-item"><a href="#Menu3" class="navbar-menu-tab">Menu3</a></li>
+      <!-- /#nav_menu_item_3.navbar-menu-item -->
+      <li id="nav_menu_item_4" class="navbar-menu-item"><a href="#Menu4" class="navbar-menu-tab">Menu4</a></li>
+      <!-- /#nav_menu_item_4.navbar-menu-item -->
     </ul>
-    <!-- /#ul.menu-container -->
+    <!-- /#nav_menu.navbar-menu -->
   </nav>
   <!-- /#nav.navbar-container -->
   <main id="main" class="content-container">
     <section id="apropos_section" class="apropos-container">
       <header id="apropos_header" class="section-header">
-        <h3 id="apropos_titre" class="section-titre">Développement de sites internet</h3>
-        <!-- /#apropos_titre.section-titre -->
-        <h4 id="apropos_stitre" class="section-stitre">Conception / Réalisation / Suivi</h4>
-        <!-- /#apropos_stitre.section-stitre -->
+        <h3 id="apropos_title" class="section-title">Développement de sites internet</h3>
+        <!-- /#apropos_title.section-title -->
+        <h4 id="apropos_subtitle" class="section-subtitle">Conception / Réalisation / Suivi</h4>
+        <!-- /#apropos_subtitle.section-subtitle -->
       </header>
       <!-- /#apropos_header.section-header -->
-      <p id="apropos_texte" class="section-texte">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptatibus commodi natus officiis, ut, asperiores earum dolore nam aut expedita repudiandae nostrum ipsa quibusdam consequatur libero neque ea excepturi impedit facilis harum, cumque dolorum repellat at! Voluptas alias quidem veniam aspernatur amet nam ratione vero vitae a inventore possimus, ea labore odio omnis obcaecati consequuntur debitis dicta illo ullam deleniti? Sit dolore doloremque delectus modi quasi iure repellendus eos officia omnis perspiciatis, assumenda debitis exercitationem fugit maiores et qui quos ex aut quo pariatur. Excepturi unde modi, itaque vel quidem ipsa doloremque officiis dolorum deserunt sequi minima, dignissimos, cum architecto!</p>
-      <!-- /#apropos_texte.section-texte -->
-      <a href="#competences_section" id="apropos_to_competences" class="cta apropos-cta">Mes compétences</a>
+      <p id="apropos_content" class="section-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptatibus commodi natus officiis, ut, asperiores earum dolore nam aut expedita repudiandae nostrum ipsa quibusdam consequatur libero neque ea excepturi impedit facilis harum, cumque dolorum repellat at! Voluptas alias quidem veniam aspernatur amet nam ratione vero vitae a inventore possimus, ea labore odio omnis obcaecati consequuntur debitis dicta illo ullam deleniti? Sit dolore doloremque delectus modi quasi iure repellendus eos officia omnis perspiciatis, assumenda debitis exercitationem fugit maiores et qui quos ex aut quo pariatur. Excepturi unde modi, itaque vel quidem ipsa doloremque officiis dolorum deserunt sequi minima, dignissimos, cum architecto!</p>
+      <!-- /#apropos_content.section-content -->
+      <a id="cta_apropos_to_competences" class="cta cta-apropos" href="#competences_section">Mes compétences</a>
     </section>
     <!-- /#apropos_section.apropos-container -->
     <section id="competences_section" class="competences-container">
       <header id="competences_header" class="section-header">
         <h3 id="competences_titre" class="section-titre">Mes compétences</h3>
         <!-- /#competences_titre.section-titre -->
-        <h4 id="competences_stitre" class="section-stitre">Découvrez mes compétences</h4>
-        <!-- /#competences_stitre.section-stitre -->
+        <h4 id="competences_subtitle" class="section-subtitle">Découvrez mes compétences</h4>
+        <!-- /#competences_subtitle.section-subtitle -->
       </header>
       <!-- /#competences_header.section-header -->
-      <article id="conception_article" class="competences-item">
-        <header id="conception_article_header">
+      <article id="conception" class="competences-item">
+        <header id="conception_header">
           <h5 id="conception_titre">Élaborer le design graphique d'un outil de communication numérique</h5>
           <!-- /#conception_titre -->
         </header>
-        <!-- /#conception_article_header -->
-        <div id="conception_content" class="competences-content">
-          <p class="competences-detail">Concevoir un site ou une application Web</p>
-          <!-- /.competences-detail -->
-          <p class="competences-detail">Réaliser des illustrations, des graphismes et des visuels</p>
-          <!-- /.competences-detail -->
-          <p class="competences-detail">Réaliser des maquettes et des interfaces</p>
-          <!-- /.competences-detail -->
-          <p class="competences-detail">Élaborer une animation pour différents supports de diffusion</p>
-          <!-- /.competences-detail -->
-        </div>
-        <!-- /#conception_content.competences-content -->
-        <aside id="conception_aside">
+        <!-- /#conception_header -->
+        <ul id="conception_content" class="competences-item-content">
+          <li class="competences-item-detail">Concevoir un site ou une application Web</li>
+          <!-- /.competences-item-detail -->
+          <li class="competences-item-detail">Réaliser des illustrations, des graphismes et des visuels</li>
+          <!-- /.competences-item-detail -->
+          <li class="competences-item-detail">Réaliser des maquettes et des interfaces</li>
+          <!-- /.competences-item-detail -->
+          <li class="competences-item-detail">Élaborer une animation pour différents supports de diffusion</li>
+          <!-- /.competences-item-detail -->
+        </ul>
+        <!-- /#conception_content.competences-item-content -->
+        <aside id="conception_aside" class="competences-aside">
           <i class="fa fa-5x fa-paint-brush competence-icone" title="Élaborer le design graphique d'un outil de communication numérique"></i>
           <!-- /.competence-icone -->
         </aside>
-        <!-- /#conception_aside -->
+        <!-- /#conception_aside.competences-aside -->
       </article>
-      <!-- /#conception_article.competences-item -->
-      <article id="realisation_article" class="competences-item">
-        <header id="realisation_article_header">
+      <!-- /#conception.competences-item -->
+      <article id="realisation" class="competences-item">
+        <header id="realisation_header">
           <h5 id="realisation_titre">Réaliser un outil de communication numérique</h5>
           <!-- /#realisation_titre -->
         </header>
-        <!-- /#realisation_article_header -->
-        <div id="realisation_content" class="competences-content">
-          <p class="competences-detail">Intégrer des pages Web en tenant compte des standards, du référencement, de l'accessibilité et de l'ergonomie</p>
-          <!-- /.competences-detail -->
-          <p class="competences-detail">Adapter des systèmes de gestion de contenus à partir d’un cahier des charges</p>
-          <!-- /.competences-detail -->
-          <p class="competences-detail">Publier des pages Web</p>
-          <!-- /.competences-detail -->
-        </div>
-        <!-- /#realisation_content.competences-content -->
-        <aside id="realisation_aside">
+        <!-- /#realisation_header -->
+        <ul id="realisation_content" class="competences-item-content">
+          <li class="competences-item-detail">Intégrer des pages Web en tenant compte des standards, du référencement, de l'accessibilité et de l'ergonomie</li>
+          <!-- /.competences-item-detail -->
+          <li class="competences-item-detail">Adapter des systèmes de gestion de contenus à partir d’un cahier des charges</li>
+          <!-- /.competences-item-detail -->
+          <li class="competences-item-detail">Publier des pages Web</li>
+          <!-- /.competences-item-detail -->
+        </ul>
+        <!-- /#realisation_content.competences-item-content -->
+        <aside id="realisation_aside" class="competences-aside">
           <i class="fa fa-5x fa-cog competence-icone" title="Réaliser un outil de communication numérique"></i>
           <!-- /.competence-icone -->
         </aside>
-        <!-- /#realisation_aside -->
+        <!-- /#realisation_aside.competences-aside -->
       </article>
-      <!-- /#realisation_article.competences-item -->
-      <article id="gestion_article" class="competences-item">
-        <header id="gestion_article_header">
+      <!-- /#realisation.competences-item -->
+      <article id="gestion" class="competences-item">
+        <header id="gestion_header">
           <h5 id="gestion_titre">Contribuer à la gestion et au suivi d'un projet de communication numérique</h5>
           <!-- /#realisation_titre -->
         </header>
-        <!-- /#gestion_article_header -->
-        <div id="gestion_content" class="competences-content">
-          <p class="competences-detail">Assurer une veille technique et concurrentielle</p>
-          <!-- /.competences-detail -->
-          <p class="competences-detail">Contribuer à l'élaboration d'un cahier des charges pour différents types de sites</p>
-          <!-- /.competences-detail -->
-          <p class="competences-detail">Optimiser en continu un site ou une application Web</p>
-          <!-- /.competences-detail -->
-          <p class="competences-detail">Réaliser des outils de communication ou de promotion</p>
-          <!-- /.competences-detail -->
-        </div>
-        <!-- /#gestion_content.competences-content -->
-        <aside id="gestion_aside">
+        <!-- /#gestion_header -->
+        <ul id="gestion_content" class="competences-item-content">
+          <li class="competences-item-detail">Assurer une veille technique et concurrentielle</li>
+          <!-- /.competences-item-detail -->
+          <li class="competences-item-detail">Contribuer à l'élaboration d'un cahier des charges pour différents types de sites</li>
+          <!-- /.competences-item-detail -->
+          <li class="competences-item-detail">Optimiser en continu un site ou une application Web</li>
+          <!-- /.competences-item-detail -->
+          <li class="competences-item-detail">Réaliser des outils de communication ou de promotion</li>
+          <!-- /.competences-item-detail -->
+        </ul>
+        <!-- /#gestion_content.competences-item-content -->
+        <aside id="gestion_aside" class="competences-aside">
           <i class="fa fa-5x fa-users competence-icone" title="Contribuer à la gestion et au suivi d'un projet de communication numérique"></i>
           <!-- /.competence-icone -->
         </aside>
-        <!-- /#gestion_aside -->
+        <!-- /#gestion_aside.competences-aside -->
       </article>
-      <!-- /#gestion_article.competences-item -->
-      <a href="#portfolio_section" id="competences-to-portfolio" class="cta">Mes réalisations</a>
+      <!-- /#gestion.competences-item -->
+      <a id="cta_competences-to-portfolio" class="cta cta-competences" href="#portfolio_section">Mes réalisations</a>
     </section>
     <!-- /#competences_section.competences-container -->
     <section id="portfolio_section" class="portfolio-container">
       <header id="portfolio_header" class="section-header">
         <h3 id="portfolio_titre" class="section-titre">Mon portfolio</h3>
         <!-- /#portfolio_titre.section-titre -->
-        <h4 id="portfolio_stitre" class="section-stitre">Découvrez mon travail</h4>
-        <!-- /#portfolio_stitre.section-stitre -->
+        <h4 id="portfolio_subtitle" class="section-subtitle">Découvrez mon travail</h4>
+        <!-- /#portfolio_subtitle.section-subtitle -->
       </header>
       <!-- /#portfolio_header.section-header -->
       <figure id="portfolio-item-1" class="portfolio-item">
@@ -189,8 +190,8 @@
       <header id="contact_header" class="section-header">
         <h3 id="contact-titre" class="section-titre">Contactez-moi</h3>
         <!-- /#contact-titre.section-titre -->
-        <h4 id="competences_stitre" class="section-stitre">Envoyez moi un mail</h4>
-        <!-- /#contact_stitre.section-stitre -->
+        <h4 id="contact_subtitle" class="section-subtitle">Envoyez moi un mail</h4>
+        <!-- /#contact_subtitle.section-subtitle -->
       </header>
       <!-- /#contact_header.section-header -->
       <form action="/action-page.php" method="get" id="contact_formulaire">
@@ -208,21 +209,21 @@
   </main>
   <!-- /#main.content-container -->
   <footer id="footer" class="footer-container">
-    <p id="copyright" class="footer-text">&#169; <a href="mailto:stagiaire@gmail.com">Stagiaire </a>2017</p>
-    <!-- /#copyright.footer-text -->
+    <p id="copyright" class="footer-copyright">&#169; <a href="mailto:stagiaire@gmail.com">Stagiaire </a>2017</p>
+    <!-- /#copyright.footer-copyright -->
     <ul class="footer-list">
-      <li class="footer-link"><a href=""><i class="fa fa-twitter"></i></a></li>
-      <!-- /.footer-link -->
-      <li class="footer-link"><a href=""><i class="fa fa-facebook"></i></a></li>
-      <!-- /.footer-link -->
-      <li class="footer-link"><a href=""><i class="fa fa-linkedin"></i></a></li>
-      <!-- /.footer-link -->
+      <li class="footer-list-link"><a href="https://twitter.com/?lang=fr"><i class="fa fa-2x fa-twitter"></i></a></li>
+      <!-- /.footer-list-link -->
+      <li class="footer-list-link"><a href="https://www.facebook.com/"><i class="fa fa-2x fa-facebook"></i></a></li>
+      <!-- /.footer-list-link -->
+      <li class="footer-list-link"><a href="https://www.linkedin.com"><i class="fa fa-2x fa-linkedin"></i></a></li>
+      <!-- /.footer-list-link -->
     </ul>
     <!-- /.footer-list -->
   </footer>
   <!-- /#footer.footer-container -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!-- jQuery -->
+  <script src="js/script.js"></script><!-- script -->
 </body>
 <!-- /#page_top -->
 </html>
