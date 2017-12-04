@@ -1,15 +1,37 @@
 # Template simple pour portfolio stagiaire
 
+
+## Les outils
+
 1. Installer l'éditeur de texte [Atom](https://atom.io/)
+
 2. Installer l'extension [Emmet](https://atom.io/packages/emmet)
+
 3. Créer un compte [github](https://github.com/)
-4. Installer l'extension [github](https://atom.io/packages/github) pour Atom
+
+4. Installer l'extension [github](https://atom.io/packages/github) pour Atom puis Packages > GitHub > toggle git tab
+
 5. Installer [github desktop](https://desktop.github.com/)
-6. Créer une branche à partir du projet initial (Fork your own copy)
+
+
+## Processus
+
+1. Importer une copie du projet initial sur votre compte
 ![Fork](img/fork.png)
-7. Cloner en utilisant Open in Desktop puis publier branche depuis github desktop
+
+2. Cloner en utilisant Open in Desktop
 ![Open](img/open.png)
-8. Depuis github desktop : Repository > open in Atom
-9. Dans Atom : Packages > GitHub > toggle git tab
-10. Les fichiers modifiés doivent êtres échangés et commentés dans l'onglet git. (stage all & commit message)
-11. Avec les 2 flèches en bas à droite d'Atom, il faut publier les changements (push)
+
+![Clone](img/clone.png)
+
+3. Depuis github desktop : Créer une nouvelle branche et publier
+![Publish](img/publish.png)
+
+4. Depuis github desktop toujours : Repository > open in Atom
+
+5. Les fichiers modifiés doivent êtres échangés et commentés dans l'onglet git. (stage all & commit message)
+
+6. Avec les 2 flèches en bas à droite d'Atom, il faut publier les changements (push)
+![Atom](img/atom.png)
+
+La branche master est visible [ici](https://kewinmarchand.github.io/Portfolio/)
