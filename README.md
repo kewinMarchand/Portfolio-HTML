@@ -16,22 +16,28 @@
 
 ## Processus
 
-1. Importer une copie du projet initial sur votre compte
+1. Importer une copie du projet initial sur votre compte (fork)
+
 ![Fork](img/fork.png)
 
 2. Cloner en utilisant Open in Desktop
+
 ![Open](img/open.png)
 
 ![Clone](img/clone.png)
 
 3. Depuis github desktop : Créer une nouvelle branche et publier
+
 ![Publish](img/publish.png)
 
 4. Depuis github desktop toujours : Repository > open in Atom
 
 5. Les fichiers modifiés doivent êtres échangés et commentés dans l'onglet git. (stage all & commit message)
 
-6. Avec les 2 flèches en bas à droite d'Atom, il faut publier les changements (push)
-![Atom](img/atom.png)
+![Commit](img/commit.png)
 
-La branche master est visible [ici](https://kewinmarchand.github.io/Portfolio/)
+6. Avec les 2 flèches en bas à droite d'Atom, il faut publier les changements (push)
+
+![Push](img/push.png)
+
+La page est visible [ici](https://kewinmarchand.github.io/Portfolio/)
