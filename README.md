@@ -28,6 +28,7 @@
 
 ![Open](img/open.png)
 
+
 ![Clone](img/clone.png)
 
 3. Depuis github desktop : Créer une nouvelle branche à votre nom (ex:jeanmarie) et publier
