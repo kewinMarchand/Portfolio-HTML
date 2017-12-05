@@ -31,7 +31,7 @@
 
 ![Clone](img/clone.png)
 
-3. Depuis github desktop : Créer une nouvelle branche à votre nom (ex:jeanmarie) et publier
+3. Depuis github desktop : Créer une nouvelle branche appelée gh-pages et publier
 
 ![Publish](img/publish.png)
 
