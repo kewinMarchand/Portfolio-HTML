@@ -31,15 +31,12 @@
 
 ![Clone](img/clone.png)
 
-3. Depuis github desktop : Créer une nouvelle branche appelée gh-pages et publier
-
-![Publish](img/publish.png)
-
-4. Depuis github desktop toujours : Repository > open in Atom
+4. Depuis github desktop : Repository > open in Atom
 
 ![Repository](img/repository.png)
 
-5. A partir de maintenant, vous pouvez modifier votre branche du projet, personnaliser le HTML et créer une feuille de style.
+5. A partir de maintenant, vous pouvez travailler sur la branche "gh-pages" du projet, elle est accessible en ligne à l'adresse https://[votre ID github].github.io/Portfolio-HTML/.
+A vous de créer le(s) fichiers css correspondants à votre maquette.
 
 Les fichiers modifiés doivent êtres échangés et commentés dans l'onglet git. (stage all & commit message)
 
@@ -49,4 +46,6 @@ Avec les 2 flèches en bas à droite d'Atom, il faut publier les changements (pu
 
 ![Push](img/push.png)
 
-Pour exemple ma page est visible [ici](https://kewinmarchand.github.io/Portfolio/)
+En installant livestyle d'emmet ([package Atom](https://atom.io/packages/livestyle-atom) + [plugin chrome](https://chrome.google.com/webstore/detail/emmet-livestyle/diebikgmpmeppiilkaijjbdgciafajmg), vous pouvez voir vos modifications CSS en direct avant d'échanger les fichiers.
+
+Un exemple de page est visible [ici](https://kewinmarchand.github.io/Portfolio-CSS/)
